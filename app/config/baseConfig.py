@@ -43,7 +43,8 @@ class DevelopmentConfig(Config):
     }
 
     # 开发环境下web端的url
-    WEB_BASE_URL = "http://192.168.0.129:8080"
+    WEB_BASE_URL = "http://127.0.0.1:8080"
+    DEBUG = True
 
 
 class ProductionConfig(Config):
